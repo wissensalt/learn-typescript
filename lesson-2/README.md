@@ -3,6 +3,7 @@
 ## Adding Checking to Existing JS Files
 - Currenty file `src/app.js` contains some errors
 - In order to fix it, we just need to add some config in `tsconfig.json`
+
 | Key   |      Value      |  Description |
 |----------|:-------------:|------:|
 | Compiler Options - allowJS |    true   |   Allowing TS to scan JS files |
