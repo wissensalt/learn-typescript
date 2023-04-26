@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "sourceMap": true,
+        "outDir": "build",
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "composite": true,
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": ["src/**/*"]
+}

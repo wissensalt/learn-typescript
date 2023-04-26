@@ -17,6 +17,11 @@ interface Address {
 
 type AddressableContact = Contact & Address
 
+const contactWithAddress: AddressableContact = {
+    address: "Jkt", city: "Jkt", country: "Idn", id: 1, name: "John", province: "Jkt", status: "new"
+}
+
+console.log(contactWithAddress)
 
 function getBirthDate(contact: Contact): Date {
     if (typeof contact.birthDate === "number" || typeof contact.birthDate === "string") {
